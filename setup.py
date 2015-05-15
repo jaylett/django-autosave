@@ -13,8 +13,7 @@ setup(
     author='Jason Goldstein',
     author_email='jason@betheshoe.com',
     url='https://github.com/theatlantic/django-autosave',
-    packages=find_packages(),
-    package_data={ 'autosave': ['static/autosave/js/*',] },
+    packages=['autosave', ],
     description='Generic autosave for the Django Admin.',
     classifiers=[
         'Environment :: Web Environment',
